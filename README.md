@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK-Stack-Topology](https://viewer.diagrams.net/?tags=%7B%7D&highlight=000000&edit=_blank&layers=1&nav=1&title=ELK-Stack-Topology.drawio.png#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1jR_ilb0czlAc_t79PLn8Dh0d_-Q_59jU%26export%3Ddownload)
+![ELK-Stack-Topology] (/Diagrams/ELK-Stack-Topology.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
