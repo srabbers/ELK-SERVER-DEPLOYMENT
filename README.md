@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK-Stack-Topology](/Diagrams/ELK-Stack-Topology.drawio.png)
+[ELK-Stack-Topology](/Diagrams/ELK-Stack-Topology.drawio.png)
 
 ![alt text](https://github.com/srabbers/ELK-Server-Deployment/blob/main/Diagrams/ELK-Stack-Topology.drawio.png "ELK-Stack-Topology")
 
