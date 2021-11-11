@@ -62,7 +62,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes                 | Admin local IP       |
 |   Web-1  | No,via JumpBox only | 10.0.0.1             |
 |   Web-2  | No,via JumpBox only | 10.0.0.1             |
-|   ELK    | No,via JumpBox only | 10.0.0.1             |
+|    ELK   | No,via JumpBox only | 10.0.0.1             |
 
 ### Elk Configuration
 
