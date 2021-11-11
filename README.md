@@ -59,9 +59,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Jump Box | Yes                 | Admin local IP       |
+|   Web-1  | No,via JumpBox only | 10.0.0.1             |
+|   Web-2  | No,via JumpBox only | 10.0.0.1             |
+|   ELK    | No,via JumpBox only | 10.0.0.1             |
 
 ### Elk Configuration
 
