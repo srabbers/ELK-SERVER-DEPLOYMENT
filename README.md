@@ -53,7 +53,7 @@ Only the Jump-box machine can accept connections from the Internet. Access to th
 - _Admin's Local IP address via SSH_
 
 Machines within the network can only be accessed by ____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+- _The JumpBox-Provisioner is the only machine that has access to the machines within the network, which is why it is referred to as the 'gateway' in the table above. It's IP address is 10.0.0.4_
 
 A summary of the access policies in place can be found in the table below.
 
@@ -67,7 +67,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- _The configuration and/or update of multiple machines simultaneously is a process that is significantly simplified as opposed to doing it manually for each machine. Any changes that need to be implemented can be added or edited within the ansible playbook file. Once ran, the playbook file will deploy those changes to every machine that is configured with that playbook. Not only does process exponentially save time, it also significantly reduces the margin of error as all machines will be running off of the same playbook file, rather than risking human error while configuring each machine individually._
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
